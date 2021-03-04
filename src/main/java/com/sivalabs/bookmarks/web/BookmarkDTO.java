@@ -1,9 +1,8 @@
 package com.sivalabs.bookmarks.web;
 
-import java.time.LocalDateTime;
-
 import com.sivalabs.bookmarks.domain.Bookmark;
 import com.sivalabs.bookmarks.domain.BookmarkVotes;
+import java.time.LocalDateTime;
 import lombok.Data;
 
 @Data
