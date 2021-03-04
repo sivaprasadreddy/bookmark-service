@@ -12,7 +12,7 @@ node {
 
         stage('Build') {
             try {
-                sh './mvnw verify'
+                sh './mvnw clean verify'
             } finally {
                 junit allowEmptyResults: true, testResults: 'target/test-results/test/*.xml'
                 junit allowEmptyResults: true, testResults: 'target/test-results/integrationTest/*.xml'
