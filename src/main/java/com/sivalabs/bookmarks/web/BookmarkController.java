@@ -46,6 +46,4 @@ public class BookmarkController {
     public Bookmark createBookmark(@RequestBody @Validated Bookmark bookmark) {
         return bookmarkRepository.save(bookmark);
     }
-
-
 }
